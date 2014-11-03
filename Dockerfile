@@ -5,7 +5,7 @@ ENV REFRESHED_AT 2014–11–03
 RUN apt-key update
 RUN apt-get -y update
 RUN apt-get -y upgrade
-RUN apt-get -y install php5 php5-mysql libapache2-mod-php5
+RUN apt-get -y install php5 php5-mysql libapache2-mod-php5 mysql-client wget
 RUN apt-get clean
 RUN echo "<?php phpinfo(); ?>" >> /var/www/html/info.php
 EXPOSE 80
