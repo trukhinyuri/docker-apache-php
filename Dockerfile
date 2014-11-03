@@ -1,7 +1,7 @@
 # Version: 0.0.1
 FROM ubuntu:14.04
 MAINTAINER trukhinyuri <yuri@trukhin.com>
-ENV REFRESHED_AT 2014–11–03
+ENV REFRESHED_AT 2014–11–03-1
 RUN apt-key update
 RUN apt-get -y update
 RUN apt-get -y upgrade
